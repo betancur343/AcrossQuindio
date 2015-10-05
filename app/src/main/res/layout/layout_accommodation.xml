@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.juan.acrossquindio.AccommodationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.5"
+            android:layout_margin="5dp">
+            <TextView android:id="@+id/id_nameHotel"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="@string/tvNameHotel"
+                android:textStyle="bold"
+                android:textSize="15sp"/>
+            <ImageView android:id="@+id/id_imgHotel"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hotel_bolivarplaza"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+            <TextView android:id="@+id/id_DescHotel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="@string/tvDescHotel"
+                android:textSize="12sp"/>
+            <TextView android:id="@+id/id_priceHotel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="@string/tvpriceHotel"
+                android:textSize="12sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

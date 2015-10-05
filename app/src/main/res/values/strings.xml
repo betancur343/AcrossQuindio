@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Across Quindío App</string>
+    <string name="Desc_app_name">\nAcross Quindío will let you know one of the most visit department of Colombia.\n"Go through Quindío is easy, pleasant and fun ..."\n</string>
+    <string name="Desc_app_name2">Visit Panaca and spend some time in family.</string>
+    <string name="Desc_app_name3">Visit El Parque Nacional del café and ride The Krater.</string>
+    <string name="Desc_app_name4">Parque Nacional del café Map .</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="menu">Home</string>
+
+    <string name="btnStart">Oh yeah!</string>
+
+    <string name="title_activity_accommodation">Accommodation</string>
+    <string name="title_activity_bars">Bar´s</string>
+    <string name="title_activity_about_quindio">About Quindío</string>
+
+    <string name="tvAccom">Accommodation</string>
+    <string name="menuAccom">Accommodation</string>
+    <string name="menuBar">Bar´s</string>
+    <string name="menuTour">Tourism</string>
+    <string name="menuAboutQ">About Quindío</string>
+    <string name="menuAboutUs">About Us</string>
+
+    <string name="tvWelcome">Welcome!\nHere, you find useful information about Armenia, Quindío (Colombia).\n</string>
+    <string name="lvAccom">Accommodation</string>
+    <string name="lvDescAccomo">¿Are you looking for some place to spend the night?</string>
+    <string name="tvNameHotel">Bolivar Plaza Hotel</string>
+    <string name="tvDescHotel">\nThe hotel with the best location in the downtown of Armenia. 19 modern
+                                room with private bathroom, WiFi and cable Tv.\n</string>
+    <string name="tvpriceHotel">Couple room from + Breakfast:\nCOP$206.000\n</string>
+
+    <string name="tvNameBar">MARIAJUANA Bar</string>
+    <string name="tvDescBar">\nAddress: Cr14 19 N-46 Nivel 2\n\nContact: (57) 3104210952\n</string>
+
+    <string name="tvNameTour">Parque Nacional del Café</string>
+    <string name="Desc1Tour">Ubicado en el Municipio de Montenegro, permite conocer las tradiciones y cultura cafetera; dentro de sus atractivos se destacan: el monumento al café, el recorrido ecológico, montaña rusa, caballos, el jardín de fábulas, helipuerto, pueblo paisa y paseo en tren, entre otros.</string>
+    <string name="Desc2Tour">ESCRÍBENOS A:servicioalcliente@parquedelcafe.co\nLLÁMANOS AL: PBX (6) – 7417417\nDomingo a Domingo de 8am – 6pm\nWEB: http://www.parquedelcafe.co/\nDirección: Km 6 vía Montenegro Pueblo Tapao Quindío – Colombia</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="welcome">¡WELCOME TO ARMENIA, QUINDÍO!\n</string>
+    <string name="Descr">Quindio department is located in the west-central region of the country and is part of El Eje Cafetero; it is known for its beautiful scenery of green mountains decorated by coffee plantations and lush plants. Quindio is proudly cradle of Colombian national tree: La Palma de Cera\n</string>
+    <string name="DescrGeo">The population, mostly mestizo, stemmed from indigenous groups mix with Spaniards. Colonization of Antioquia, in the early nineteenth century, just as marked characteristics in the population.</string>
+    <string name="DescrPob">Quindío Department has 543.532 people, which the 87%% lives in urban headers and the 13%% in rural areas. The residents of Quindió are called Quindiano and the people who lives in Armenia, the capital, are called Cuyabros.</string>
+    <string name="title_activity_tourism">TourismActivity</string>
+    <string name="title_activity_aboutus">About Us</string>
+
+    <string name="tvDescAboutUs">\n\nCreated by \nJuan Camilo Betancur Jaramillo\nElectronics Engineer Student\n\nCourse: Mobile Application Development (Android)\n\nUniversidad de Antioquia\nFacultad de Ingeniería\n2015</string>
+
+</resources>

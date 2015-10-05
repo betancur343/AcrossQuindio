@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/id_actAccom"
+        android:title="@string/menuAccom"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/id_actBar"
+        android:title="@string/menuBar"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/id_actTourism"
+        android:title="@string/menuTour"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/id_actAboutQ"
+        android:title="@string/menuAboutQ"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/id_actAboutUs"
+        android:title="@string/menuAboutUs"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>
