@@ -12,19 +12,22 @@
         android:orientation="vertical"
         android:weightSum="1"
         android:layout_margin="2dp">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="0.7"
             android:text="@string/tvWelcome"
-            android:textSize="14sp"
-            android:gravity="center"
-            android:layout_gravity="center"/>
+            android:textSize="12sp"
+            android:gravity="center" android:layout_gravity="center"
+            android:background="@color/yellow"
+            android:textColor="@color/gray"/>
 
         <ListView android:id="@+id/id_ListStart"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="0.3" />
+            android:layout_weight="0.3"
+            />
 
     </LinearLayout>
 
@@ -43,23 +46,24 @@
                 android:orientation="vertical">
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:text="@string/Desc_app_name"
                     android:textStyle="bold|italic"
-                    android:textSize="15sp"
+                    android:textSize="12sp"
                     android:textColor="@color/white"
                     android:gravity="center"
                     android:layout_gravity="center"/>
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="300dp"
-                    android:src="@drawable/logomarcaquindio"/>
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/logomarcaquindio"
+                    android:scaleType="center"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/Desc_app_name2"
                     android:textStyle="bold|italic"
-                    android:textSize="13sp"
+                    android:textSize="12sp"
                     android:textColor="@color/white"
                     android:gravity="center"
                     android:layout_gravity="center"/>
@@ -73,13 +77,13 @@
                     android:layout_height="wrap_content"
                     android:text="@string/Desc_app_name3"
                     android:textStyle="bold|italic"
-                    android:textSize="13sp"
+                    android:textSize="12sp"
                     android:textColor="@color/white"
                     android:gravity="center"
                     android:layout_gravity="center"/>
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="150dp"
+                    android:layout_height="115dp"
                     android:src="@drawable/krater"
                     android:scaleType="fitStart"/>
                 <TextView
@@ -87,13 +91,13 @@
                     android:layout_height="wrap_content"
                     android:text="@string/Desc_app_name4"
                     android:textStyle="bold|italic"
-                    android:textSize="13sp"
+                    android:textSize="12sp"
                     android:textColor="@color/white"
                     android:gravity="center"
                     android:layout_gravity="center"/>
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="150dp"
+                    android:layout_height="120dp"
                     android:src="@drawable/parque_del_cafe1"
                     android:scaleType="fitStart"/>
             </LinearLayout>

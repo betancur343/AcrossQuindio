@@ -2,53 +2,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.juan.acrossquindio.AccommodationActivity">
+    android:orientation="horizontal"
+    tools:context=".AccommodationActivity">
+
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="170dp"
-        android:layout_margin="10dp"
-        android:background="@color/white"
-        android:orientation="horizontal"
-        android:weightSum="1">
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/brown"
+        android:orientation="horizontal">
+
         <LinearLayout
-            android:layout_width="300dp"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_weight="0.5"
-            android:layout_margin="5dp">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
             <TextView android:id="@+id/id_nameHotel"
-                android:layout_width="160dp"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:text="@string/tvNameHotel"
                 android:textStyle="bold"
-                android:textSize="15sp"/>
+                android:textSize="15sp"
+                android:layout_margin="2dp"
+                android:textColor="@color/black"/>
+
             <ImageView android:id="@+id/id_imgHotel"
-                android:layout_width="120dp"
+                android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:src="@drawable/hotel_bolivarplaza"
-                android:layout_gravity="center"/>
+                android:src="@drawable/hotelbolivarplaza"
+                android:layout_gravity="center"
+                android:background="@color/white"/>
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="0.5"
             android:orientation="vertical"
             android:layout_margin="5dp">
             <TextView android:id="@+id/id_DescHotel"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textStyle="italic"
                 android:text="@string/tvDescHotel"
-                android:textSize="12sp"/>
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:layout_weight="0.3"/>
             <TextView android:id="@+id/id_priceHotel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textStyle="italic"
                 android:text="@string/tvpriceHotel"
-                android:textSize="12sp"/>
+                android:textSize="12sp"
+                android:textColor="@color/blue"
+                android:layout_weight="0.7"/>
         </LinearLayout>
     </LinearLayout>
 

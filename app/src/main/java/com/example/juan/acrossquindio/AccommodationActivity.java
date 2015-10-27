@@ -22,16 +22,29 @@ public class AccommodationActivity extends AppCompatActivity {
 
     private List_Accommodation[] Accom =
             new List_Accommodation[] {
-                    new List_Accommodation("Bolivar Plaza Hotel\n",R.drawable.hotel_bolivarplaza,"The hotel with the best location in the downtown of Armenia. 19 modern" +
-                            "                                room with private bathroom, WiFi and cable Tv.\n","Couple room from + Breakfast:\nCOP$206.000"),
-                    new List_Accommodation("Decameron Panaca\n",R.drawable.hotel_decameronpanaca,"The real all inclusive, now in the Eje Cafetero. Spectacular hotel with" +
-                            "                                rustic architecture inside the Panaca thematic park.\n","Couple room from + All inclusive plan:\nCOP$389.000"),
-                    new List_Accommodation("Las Camelias Country Hotel\n",R.drawable.hotel_lascamelias_index,"Spectacular hotel build using typical elements of the region " +
-                            "                                and with the highest quality standars in the Eje Cafetero.\n","Couple room from + Breakfast:\nCOP$275.000")};
+                    new List_Accommodation("name",R.drawable.hotelbolivarplaza,"desc","price"),
+                    new List_Accommodation("",R.drawable.hotel_decameronpanaca,"",""),
+                    new List_Accommodation("",R.drawable.hotel_lascamelias_index,"","")};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_accommodation);
+
+        String[] Accom_var =getResources().getStringArray(R.array.List_Accom_name);
+        Accom[0].setNameItem(Accom_var[0]);
+        Accom[1].setNameItem(Accom_var[1]);
+        Accom[2].setNameItem(Accom_var[2]);
+
+        String[] Accom_var2 =getResources().getStringArray(R.array.List_Accom_Desc);
+        Accom[0].setDescItem(Accom_var2[0]);
+        Accom[1].setDescItem(Accom_var2[1]);
+        Accom[2].setDescItem(Accom_var2[2]);
+
+        String[] Accom_var3 =getResources().getStringArray(R.array.List_Accom_price);
+        Accom[0].setPriceItem(Accom_var3[0]);
+        Accom[1].setPriceItem(Accom_var3[1]);
+        Accom[2].setPriceItem(Accom_var3[2]);
+
 
         Adapter adapter2 = new Adapter(this, Accom);
         listAccom = (ListView) findViewById(R.id.id_ListAccom);

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Across Quindío</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="Desc_app_name">\nAcross Quindío te permitirá conocer uno de los departamentos más visitados de Colombia. "Recorrer Quindío es fácil, placentero\ny divertido..."\n</string>
+    <string name="Desc_app_name2">Visita Panaca, disfruta tiempo en familia y mucho más...\n</string>
+    <string name="Desc_app_name3">Visita el Parque Nacional del café and pasea en el Krater y otras atracciones...\n</string>
+    <string name="Desc_app_name4">Camina por los senderos del Parque del Café y más...\n</string>
+
+    <string name="title_activity_accommodation">Alojamiento</string>
+    <string name="title_activity_bars">Bares</string>
+    <string name="title_activity_about_quindio">Acerca de Quindío</string>
+
+    <string name="tvAccom">Alojamiento</string>
+    <string name="menu">Inicio</string>
+    <string name="menuAccom">Alojamiento</string>
+    <string name="menuBar">Bar´s</string>
+    <string name="menuTour">Turismo</string>
+    <string name="menuAboutQ">Acerca de Quindío</string>
+    <string name="menuAboutUs">Acerca de la app</string>
+
+    <string name="tvWelcome">Bienvenid@s!\nAquí, encontrarás información útil acerca de Armenia, Quindío\n(Colombia).\n</string>
+    <string name="lvAccom">Alojamiento</string>
+    <string name="lvDescAccomo">¿Estás buscando un lugar donde pasar la noche?</string>
+    <string name="tvNameHotel">Hotel Bolivar Plaza</string>
+    <string name="tvDescHotel">\nEl hotel con la mejor ubicación en el centro de Armenia. 19 modernas
+                                habitaciones con baño pribado, WiFi and Tv cable.\n</string>
+    <string name="tvpriceHotel">Cuarto doble + Desayuno:\nCOP$206.000\n</string>
+
+    <string name="tvNameBar">MARIAJUANA Bar</string>
+    <string name="tvDescBar">\nDirección: Cr14 19 N-46 Nivel 2\n\nContacto: (57) 3104210952\n</string>
+
+    <string name="tvNameTour">Parque Nacional del Café</string>
+    <string name="Desc1Tour">Ubicado en el Municipio de Montenegro, permite conocer las tradiciones y cultura cafetera; dentro de sus atractivos se destacan: el monumento al café, el recorrido ecológico, montaña rusa, caballos, el jardín de fábulas, helipuerto, pueblo paisa y paseo en tren, entre otros.</string>
+    <string name="Desc2Tour">ESCRÍBENOS A:servicioalcliente@parquedelcafe.co\nLLÁMANOS AL: PBX (6) – 7417417\nDomingo a Domingo de 8am – 6pm\nWEB: http://www.parquedelcafe.co/\nDirección: Km 6 vía Montenegro Pueblo Tapao Quindío – Colombia</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="welcome">¡WELCOME TO ARMENIA, QUINDÍO!\n</string>
+    <string name="Descr">El departamento del Quindio está localizado en la region oeste-central del país y es parte del Eje Cafetero; Es reconocido por sus bellos escenarios de verdes montañas decorado por  plantaciones de cafe y plantas exuberantes. Quindio es orgullosamente cuna del arbol nacional de Colombia: La Palma de Cera\n</string>
+    <string name="DescrGeo">: La población, en su mayoría mestiza, tuvo su origen en la mezcla de grupos indígenas con españoles. La colonización antioqueña, a principios del siglo XIX, de igual forma marcó las características en la población. </string>
+    <string name="DescrPob">El Departamento del Quindío cuenta con 543.532 personas, de las cuales el 87%% de la población vive en las cabeceras urbanas y el 13 %% en zonas rurales. Los pobladores del Quindío se les denomina con el gentilicio de quindiano y a los habitantes de la capital se les conoce popularmente como cuyabros.</string>
+    <string name="title_activity_tourism">Turismo</string>
+    <string name="title_activity_aboutus">Acerca de nosotros</string>
+
+    <string name="tvDescAboutUs">\n\nAcross Quindío App\n\nCreada por \nJuan Camilo Betancur Jaramillo\nEstudiante de Ingeniería Electrónica\n\nCurso\nDesarrollo de Aplicaciones Móviles (Android)\n\nUniversidad de Antioquia\nFacultad de Ingeniería\n2015</string>
+
+    <string-array name="List_main_name">
+        <item>Alojamiento</item>
+        <item>Bares</item>
+        <item>Turismo</item>
+        <item>Acerca de Quindío</item>
+        <item>Acerca de nosotros</item>
+    </string-array>
+    <string-array name="List_main_Desc">
+        <item>¿Estás buscando algún lugar donde pasar la noche?</item>
+        <item>Encuentra un buen lugar donde beber algo, conocer personas y escuchar música.</item>
+        <item>¿Estás buscando buenos lugares que conocer?</item>
+        <item>Info acerca de Armenia y Quindío.</item>
+        <item>Info acerca de la app.</item>
+    </string-array>
+
+    <string-array name="List_Accom_name">
+        <item>Hotel Bolivar Plaza</item>
+        <item>Decameron Panaca</item>
+        <item>Hotel Las Camelias Country</item>
+    </string-array>
+    <string-array name="List_Accom_Desc">
+        <item>El hotel con la mejor ubicación en el centro de Armenia. 19 modernas habitaciones con baño privado, WiFi and Tv cable.</item>
+        <item>El real todo incluido, ahora en el Eje Cafetero. Espectacular hotel con arquitectura rústica dentro del parque temático Panaca.</item>
+        <item>Espectacular hotel contruído usando elementos típicos de la region con los más altos estándares in el Eje Cafetero.</item>
+    </string-array>
+    <string-array name="List_Accom_price">
+        <item>Habitación doble + desayuno:\nCOP$206.000</item>
+        <item>Habitación doble + plan Todo Incluido:\nCOP$389.000</item>
+        <item>Habitación doble + desayuno:\nCOP$275.000</item>
+    </string-array>
+
+    <string-array name="List_Bars_name">
+        <item>Bar MARIAJUANA</item>
+        <item>Bar Guitarra y Rumba </item>
+        <item>Discoteca y grill Shago</item>
+    </string-array>
+    <string-array name="List_Bars_Desc">
+        <item>Dirección: Cr14 N° 19Norte-46 Nivel 2\nContacto: (+57) 3104210952</item>
+        <item>Dirección: Vía Circasia Km 2\nContacto: (+57) 3117496273</item>
+        <item>Dirección: Cr 20 Nº 20-23\nContacto: (+57) 7340477</item>
+    </string-array>
+
+    <string-array name="List_Tour_name">
+        <item>PANACA - Parque Nacional de la Cultura Agropecuaria</item>
+        <item>Parque Nacional del Café</item>
+        <item>Salento - Valle de Cocora</item>
+        <item>Guadua and Bambú Museum</item>
+        <item>Quimbaya Museum</item>
+    </string-array>
+    <string-array name="List_Tour_Desc1">
+        <item>Gran parque temático en el que podrá disfrutar al máximo la belleza de la vida en el campo. Entre otras atracciones disfrute del asombroso mundo de la ganadería, el fascinante mundo de la avicultura,el sensacional mundo de la porcicultura, el amigable mundo del perro, el curioso mundo de la sericultura, el novedoso mundo de los biorgánicos, el espectacular mundo del caballo y el interesante mundo de la agronomía.</item>
+        <item>Ubicado en el Municipio de Montenegro, permite conocer las tradiciones y cultura cafetera; dentro de sus atractivos se destacan: el monumento al café, el recorrido ecológico, montaña rusa, caballos, el jardín de fábulas, helipuerto, pueblo paisa y paseo en tren, entre otros.</item>
+        <item>Ofrece la más diversa variedad de flora y fauna típicas del bosque de niebla, en el Valle Del Cocora encontramos grandes concentraciones de palma de cera del Quindío, planta que por su majestuosidad fue denominada árbol nacional. En esta región se encuentran también las reservas naturales de Acaime y Herencia Verde.</item>
+        <item>Ubicado en el Municipio de Córdoba, es el sitio ideal para conocer los diversos usos de la guadua y el bambú.</item>
+        <item>Premio Nacional de Arquitectura, diseñado por el Arquitecto Rogelio Salmona, alberga una de las más completas colecciones de arte precolombino.</item>
+    </string-array>
+    <string-array name="List_Tour_Desc2">
+        <item>Dirección: Kilómetro 7 vía vereda Kerman, Quimbaya – Quindío – Colombia\nTeléfono: (6) 758 2830 Celular: 313 721 9211\nLinea gratis: 01 8000 123 999</item>
+        <item>Correo: servicioalcliente@parquedelcafe.co\nTeléfono: PBX (6) – 7417417\nDomingo a domingo de 8am – 6pm\nWeb: http://www.parquedelcafe.co/\nDirección: Km 6 vía Montenegro Pueblo Tapao Quindío – Colombia</item>
+        <item>Teléfono: (096) 7463515 Celular: (321) 8317913 - (310) 2275091\nCorreo: bosquesdecocora@live.com - reservasbosquesdecocora@gmail.com\nWeb: http://www.valledelcocora.com.co</item>
+        <item>Horario de atención al público 9:00 am a 4:00 pm\nDías de atención al público	Lunes a domingo y festivos.</item>
+        <item>Dirección: Avenida Bolívar # 40 Norte-80\nTeléfonos: 7498169 ext. 6070, 6071, 6076, 6078\n"\nHorarios: Museo del Oro Quimbaya: Martes a Domingo 9:00 a.m - 5:00 p.m.\nCentro de documentación y Sala de lectura infantil: Martes a sábado 9:00 a.m. - 5:00 p.m. Entrada Gratuita\nCorreo electrónico: museoquimbaya@banrep.gov.co</item>
+    </string-array>
+
+</resources>

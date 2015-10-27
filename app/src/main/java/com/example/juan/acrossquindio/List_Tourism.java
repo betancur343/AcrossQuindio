@@ -13,6 +13,16 @@ public class List_Tourism {
         this.Desc2Item = Desc2Item;
     }
 
+    public void setNameItem(String nameItem) {
+        this.nameItem = nameItem;
+    }
+    public void setDesc1Item(String desc1Item) {
+        Desc1Item = desc1Item;
+    }
+    public void setDesc2Item(String desc2Item) {
+        Desc2Item = desc2Item;
+    }
+
     public String getNameItem() {
         return nameItem;
     }

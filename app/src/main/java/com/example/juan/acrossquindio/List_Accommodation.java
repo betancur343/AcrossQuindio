@@ -13,6 +13,16 @@ public class List_Accommodation {
         this.priceItem = priceItem;
     }
 
+    public void setNameItem(String nameItem) {
+        this.nameItem = nameItem;
+    }
+    public void setDescItem(String descItem) {
+        DescItem = descItem;
+    }
+    public void setPriceItem(String priceItem) {
+        this.priceItem = priceItem;
+    }
+
     public String getNameItem() {
         return nameItem;
     }

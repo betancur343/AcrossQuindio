@@ -20,18 +20,39 @@ public class TourismActivity extends AppCompatActivity {
     ListView listTour;
 
     private List_Tourism[] Tour =
-            new List_Tourism[] {
-                    new List_Tourism("PANACA - Parque Nacional de la Cultura Agropecuaria\n",R.drawable.panaca,"It is a big theme park where you can enjoy the full beauty of life in the countryside. Among other attractions enjoy the amazing world of livestock, fascinating world of the  poultry farming, sensational world of the pig, the friendly dog world, the curious world of sericulture, the new world of biorganics, the spectacular world of horses and the interesting world of agronomy.","Dirección: Kilómetro 7 vía vereda Kerman, Quimbaya – Quindío – Colombia\nPhone: (6) 758 2830\nCellphone: 313 721 9211\n Free line: 01 8000 123 999"),
-
-                    new List_Tourism("Parque Nacional del Café\n",R.drawable.parquedelcafe2,"Located in the town of Montenegro, let us to know the traditions and coffee culture. Among its attractions are: the monument to coffee, ecological tour, Krater roller coaster, horses, garden fables, heliport, paisa people and train ride, among others.","E-mail: servicioalcliente@parquedelcafe.co\nPhone: PBX (6) – 7417417\n Sunday to sunday from 8am – 6pm\nWeb: http://www.parquedelcafe.co/\nAddress: Km 6 vía Montenegro Pueblo Tapao Quindío – Colombia"),
-                new List_Tourism("Salento - Valle de Cocora\n",R.drawable.logobosquesp,"Offers the most diverse variety of flora and fauna typical of the cloud forest, in the valley of Cocora find large concentrations of Quindío wax palm, plant his majesty was named national tree. In this region there are also the natural reserves of Acaime and Herencia Verde.","Phone: (096) 7463515\nCellphone: (321) 8317913 - (310) 2275091\nE-mail: bosquesdecocora@live.com \nor reservasbosquesdecocora@gmail.c\nWeb: http://www.valledelcocora.com.co\n")
+            new List_Tourism[]{
+                    new List_Tourism("", R.drawable.panaca, "", ""),
+                    new List_Tourism("", R.drawable.parque_del_cafe_logo_verde_armenia_quindio_01, "", ""),
+                    new List_Tourism("", R.drawable.logobosquesp, "", ""),
+                    new List_Tourism("", R.drawable.museoguaduaybambu, "", ""),
+                    new List_Tourism("", R.drawable.museoquimbaya, "", "")
             };
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tourism);
+
+        String[] Tour_var =getResources().getStringArray(R.array.List_Tour_name);
+        Tour[0].setNameItem(Tour_var[0]);
+        Tour[1].setNameItem(Tour_var[1]);
+        Tour[2].setNameItem(Tour_var[2]);
+        Tour[3].setNameItem(Tour_var[3]);
+        Tour[4].setNameItem(Tour_var[4]);
+
+        String[] Tour_var2 =getResources().getStringArray(R.array.List_Tour_Desc1);
+        Tour[0].setDesc1Item(Tour_var2[0]);
+        Tour[1].setDesc1Item(Tour_var2[1]);
+        Tour[2].setDesc1Item(Tour_var2[2]);
+        Tour[3].setDesc1Item(Tour_var2[3]);
+        Tour[4].setDesc1Item(Tour_var2[4]);
+
+        String[] Tour_var3 =getResources().getStringArray(R.array.List_Tour_Desc2);
+        Tour[0].setDesc2Item(Tour_var3[0]);
+        Tour[1].setDesc2Item(Tour_var3[1]);
+        Tour[2].setDesc2Item(Tour_var3[2]);
+        Tour[3].setDesc2Item(Tour_var3[3]);
+        Tour[4].setDesc2Item(Tour_var3[4]);
 
         Adapter adapter4 = new Adapter(this, Tour);
         listTour = (ListView) findViewById(R.id.id_ListTourism);
@@ -71,29 +92,31 @@ public class TourismActivity extends AppCompatActivity {
 
             return (item);
         }
-
-    }@Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_tourism, menu);
-        return true;
     }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.id_menu) {
-            //Toast.makeText(TourismActivity.this, "Menu", Toast.LENGTH_LONG).show();
-            Intent i =new Intent(getBaseContext(),MainActivity.class);
-            startActivity(i);
+        @Override
+        public boolean onCreateOptionsMenu(Menu menu) {
+            // Inflate the menu; this adds items to the action bar if it is present.
+            getMenuInflater().inflate(R.menu.menu_tourism, menu);
             return true;
         }
 
-        return super.onOptionsItemSelected(item);
+        @Override
+        public boolean onOptionsItemSelected(MenuItem item) {
+            // Handle action bar item clicks here. The action bar will
+            // automatically handle clicks on the Home/Up button, so long
+            // as you specify a parent activity in AndroidManifest.xml.
+            int id = item.getItemId();
+
+            //noinspection SimplifiableIfStatement
+            if (id == R.id.id_menu) {
+                Toast.makeText(TourismActivity.this, "Menu", Toast.LENGTH_LONG).show();
+                Intent i =new Intent(getBaseContext(),MainActivity.class);
+                startActivity(i);
+                return true;
+
+            }
+
+            return super.onOptionsItemSelected(item);
+        }
     }
-}
+

@@ -25,18 +25,31 @@ public class MainActivity extends AppCompatActivity {
 
     private List_Start[] menu =
             new List_Start[] {
-                    new List_Start(R.drawable.hotel,"Accommodation","¿Are you looking for some place to spend the night?"),
-                    new List_Start(R.drawable.drink_bar_cocktails,"Bar´s","Find a good place to drink something, meet people and listen music."),
-                    new List_Start(R.drawable.tourism1,"Tourism","¿Are you looking for some interesting places to visit?"),
-                    new List_Start(R.drawable.info,"About Quindío","Info about Armenia."),
-                    new List_Start(R.drawable.question,"About us","Info about who the hell create this app.")};
+                    new List_Start(R.drawable.hotel,"name","desc"),
+                    new List_Start(R.drawable.drink_bar_cocktails,"",""),
+                    new List_Start(R.drawable.tourism1,"",""),
+                    new List_Start(R.drawable.info,"",""),
+                    new List_Start(R.drawable.question,"","")};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        String[] Main_var =getResources().getStringArray(R.array.List_main_name);
+        menu[0].setNameItem(Main_var[0]);
+        menu[1].setNameItem(Main_var[1]);
+        menu[2].setNameItem(Main_var[2]);
+        menu[3].setNameItem(Main_var[3]);
+        menu[4].setNameItem(Main_var[4]);
+
+        String[] Main_var2 =getResources().getStringArray(R.array.List_main_Desc);
+        menu[0].setDescItem(Main_var2[0]);
+        menu[1].setDescItem(Main_var2[1]);
+        menu[2].setDescItem(Main_var2[2]);
+        menu[3].setDescItem(Main_var2[3]);
+        menu[4].setDescItem(Main_var2[4]);
 
         Adapter adapter1 = new Adapter(this, menu);
         listMenu = (ListView) findViewById(R.id.id_ListStart);
@@ -47,28 +60,28 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 String seleccion = ((List_Start) parent.getItemAtPosition(position)).getNameItem();
                 Toast.makeText(MainActivity.this, seleccion, Toast.LENGTH_LONG).show();
-                if(seleccion.equals("Accommodation")) {
+                if(seleccion.equals("Accommodation") || seleccion.equals("Alojamiento") ) {
                     //Toast.makeText(MainActivity.this, "Igual", Toast.LENGTH_LONG).show();
                     Intent i =new Intent(getBaseContext(), AccommodationActivity.class);
                     startActivity(i);
                 }
-                if(seleccion.equals("Bar´s")) {
+                if(seleccion.equals("Bar´s") || seleccion.equals("Bares") ) {
                     //Toast.makeText(MainActivity.this, "Igual", Toast.LENGTH_LONG).show();
                     Intent i =new Intent(getBaseContext(),BarsActivity.class);
                     startActivity(i);
                 }
 
-                if(seleccion.equals("Tourism")) {
+                if(seleccion.equals("Tourism") || seleccion.equals("Turismo")) {
                     //Toast.makeText(MainActivity.this, "Igual", Toast.LENGTH_LONG).show();
                     Intent i =new Intent(getBaseContext(),TourismActivity.class);
                     startActivity(i);
                 }
-                if(seleccion.equals("About Quindío")) {
+                if(seleccion.equals("About Quindío") || seleccion.equals("Acerca de Quindío")) {
                     //Toast.makeText(MainActivity.this, "Igual", Toast.LENGTH_LONG).show();
                     Intent i =new Intent(getBaseContext(),AboutQuindioActivity.class);
                     startActivity(i);
                 }
-                if(seleccion.equals("About us")) {
+                if(seleccion.equals("About us") || seleccion.equals("Acerca de nosotros")) {
                     //Toast.makeText(MainActivity.this, "Igual", Toast.LENGTH_LONG).show();
                     Intent i =new Intent(getBaseContext(),AboutusActivity.class);
                     startActivity(i);

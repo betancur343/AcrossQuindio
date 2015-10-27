@@ -21,14 +21,25 @@ public class BarsActivity extends AppCompatActivity {
 
     private List_Bars[] Bars =
             new List_Bars[] {
-                    new List_Bars("MARIAJUANA Bar\n",R.drawable.mariajuana,"Address:Cr14 19 N-46 Nivel 2\nContact: (57) 3104210952"),
-                    new List_Bars("Guitarra y Rumba\n",R.drawable.guitarrayrumba,"Address: Vía Circasia Km 2\nContact: (57) 3117496273"),
-                    new List_Bars("Shago Disco and Grill\n",R.drawable.shangodisco,"Address: Cr 20 Nº 20-23\nContact: (57) 7340477")};
+                    new List_Bars("",R.drawable.mariajuana,""),
+                    new List_Bars("",R.drawable.guitarrayrumba,""),
+                    new List_Bars("",R.drawable.shangodisco,"")};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bars);
+
+        String[] Bars_var =getResources().getStringArray(R.array.List_Bars_name);
+        Bars[0].setNameItem(Bars_var[0]);
+        Bars[1].setNameItem(Bars_var[1]);
+        Bars[2].setNameItem(Bars_var[2]);
+
+        String[] Bars_var2 =getResources().getStringArray(R.array.List_Bars_Desc);
+        Bars[0].setDescItem(Bars_var2[0]);
+        Bars[1].setDescItem(Bars_var2[1]);
+        Bars[2].setDescItem(Bars_var2[2]);
+
 
         Adapter adapter3 = new Adapter(this, Bars);
         listBars = (ListView) findViewById(R.id.id_ListBars);

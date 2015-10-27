@@ -1,40 +1,38 @@
 <resources>
-    <string name="app_name">Across Quindío App</string>
-    <string name="Desc_app_name">\nAcross Quindío will let you know one of the most visit department of Colombia.\n"Go through Quindío is easy, pleasant and fun ..."\n</string>
-    <string name="Desc_app_name2">Visit Panaca and spend some time in family.</string>
-    <string name="Desc_app_name3">Visit El Parque Nacional del café and ride The Krater.</string>
-    <string name="Desc_app_name4">Parque Nacional del café Map .</string>
-
+    <string name="app_name">Across Quindío</string>
     <string name="action_settings">Settings</string>
-    <string name="menu">Home</string>
 
-    <string name="btnStart">Oh yeah!</string>
+    <string name="Desc_app_name">\nAcross Quindío will let you know one of the most visit department of Colombia. "Go through Quindío is easy, pleasant\nand fun..."\n</string>
+    <string name="Desc_app_name2">Visit Panaca and spend some family time and more...\n</string>
+    <string name="Desc_app_name3">Visit the Parque Nacional del café and ride The Krater and more...\n</string>
+    <string name="Desc_app_name4">Walk for the trails through the Parque del Café and more...\n</string>
 
     <string name="title_activity_accommodation">Accommodation</string>
     <string name="title_activity_bars">Bar´s</string>
     <string name="title_activity_about_quindio">About Quindío</string>
 
     <string name="tvAccom">Accommodation</string>
+    <string name="menu">Home</string>
     <string name="menuAccom">Accommodation</string>
     <string name="menuBar">Bar´s</string>
     <string name="menuTour">Tourism</string>
     <string name="menuAboutQ">About Quindío</string>
     <string name="menuAboutUs">About Us</string>
 
-    <string name="tvWelcome">Welcome!\nHere, you find useful information about Armenia, Quindío (Colombia).\n</string>
+    <string name="tvWelcome">Welcome!\nHere, you find useful information about Armenia, Quindío\n(Colombia)...\n</string>
     <string name="lvAccom">Accommodation</string>
     <string name="lvDescAccomo">¿Are you looking for some place to spend the night?</string>
     <string name="tvNameHotel">Bolivar Plaza Hotel</string>
     <string name="tvDescHotel">\nThe hotel with the best location in the downtown of Armenia. 19 modern
                                 room with private bathroom, WiFi and cable Tv.\n</string>
-    <string name="tvpriceHotel">Couple room from + Breakfast:\nCOP$206.000\n</string>
+    <string name="tvpriceHotel">Couple room + Breakfast:\nCOP$206.000\n</string>
 
     <string name="tvNameBar">MARIAJUANA Bar</string>
     <string name="tvDescBar">\nAddress: Cr14 19 N-46 Nivel 2\n\nContact: (57) 3104210952\n</string>
 
     <string name="tvNameTour">Parque Nacional del Café</string>
-    <string name="Desc1Tour">Ubicado en el Municipio de Montenegro, permite conocer las tradiciones y cultura cafetera; dentro de sus atractivos se destacan: el monumento al café, el recorrido ecológico, montaña rusa, caballos, el jardín de fábulas, helipuerto, pueblo paisa y paseo en tren, entre otros.</string>
-    <string name="Desc2Tour">ESCRÍBENOS A:servicioalcliente@parquedelcafe.co\nLLÁMANOS AL: PBX (6) – 7417417\nDomingo a Domingo de 8am – 6pm\nWEB: http://www.parquedelcafe.co/\nDirección: Km 6 vía Montenegro Pueblo Tapao Quindío – Colombia</string>
+    <string name="Desc1Tour">Located in the town of Montenegro, let us to know the traditions and coffee culture. Among its attractions are: the monument to coffee, ecological tour, Krater roller coaster, horses, garden fables, heliport, paisa people and train ride, among others.</string>
+    <string name="Desc2Tour">Write us:servicioalcliente@parquedelcafe.co\nCall us: PBX (6) – 7417417\nsunday to sunday de 8am – 6pm\nWEB: http://www.parquedelcafe.co/\nAddress: Km 6 vía Montenegro Pueblo Tapao Quindío – Colombia</string>
 
     <string name="hello_world">Hello world!</string>
 
@@ -45,6 +43,71 @@
     <string name="title_activity_tourism">TourismActivity</string>
     <string name="title_activity_aboutus">About Us</string>
 
-    <string name="tvDescAboutUs">\n\nCreated by \nJuan Camilo Betancur Jaramillo\nElectronics Engineer Student\n\nCourse: Mobile Application Development (Android)\n\nUniversidad de Antioquia\nFacultad de Ingeniería\n2015</string>
+    <string name="tvDescAboutUs">\n\nAcross Quindío App\n\nCreated by \nJuan Camilo Betancur Jaramillo\nElectronics Engineer Student\n\nCourse\nMobile Application Development (Android)\n\nUniversidad de Antioquia\nFacultad de Ingeniería\n2015</string>
+
+    <string-array name="List_main_name">
+        <item>Accommodation</item>
+        <item>Bar´s</item>
+        <item>Tourism</item>
+        <item>About Quindío</item>
+        <item>About us</item>
+    </string-array>
+    <string-array name="List_main_Desc">
+        <item>¿Are you looking for some place to spend the night?</item>
+        <item>Find a good place to drink something, meet people and listen music.</item>
+        <item>¿Are you looking for some interesting places to visit?</item>
+        <item>Info about Armenia.</item>
+        <item>Info about who the hell create this app.</item>
+    </string-array>
+
+    <string-array name="List_Accom_name">
+        <item>Bolivar Plaza Hotel\n</item>
+        <item>Decameron Panaca\n</item>
+        <item>Las Camelias Country Hotel\n</item>
+    </string-array>
+    <string-array name="List_Accom_Desc">
+        <item>The hotel with the best location in the downtown of Armenia. 19 modern room with private bathroom, WiFi and cable Tv.\n</item>
+        <item>Find a good place to drink something, meet people and listen music.The real all inclusive, now in the Eje Cafetero. Spectacular hotel with rustic architecture inside the Panaca thematic park.\n</item>
+        <item>Spectacular hotel build using typical elements of the region and with the highest quality standards in the Eje Cafetero.\n</item>
+    </string-array>
+    <string-array name="List_Accom_price">
+        <item>Couple room from + Breakfast:\nCOP$206.000</item>
+        <item>Couple room from + All inclusive plan:\nCOP$389.000</item>
+        <item>Couple room from + Breakfast:\nCOP$275.000</item>
+    </string-array>
+
+    <string-array name="List_Bars_name">
+        <item>MARIAJUANA Bar</item>
+        <item>Guitarra y Rumba Bar</item>
+        <item>Shago Disco and Grill</item>
+    </string-array>
+    <string-array name="List_Bars_Desc">
+        <item>Address:Cr14 19 N-46 Nivel 2\nContact: (+57) 3104210952</item>
+        <item>Address: Vía Circasia Km 2\nContact: (+57) 3117496273</item>
+        <item>Address: Cr 20 Nº 20-23\nContact: (+57) 7340477</item>
+       </string-array>
+
+    <string-array name="List_Tour_name">
+        <item>PANACA - Parque Nacional de la Cultura Agropecuaria</item>
+        <item>Parque Nacional del Café</item>
+        <item>Salento - Valle de Cocora</item>
+        <item>Guadua and Bambú Museum</item>
+        <item>Quimbaya Museum</item>
+    </string-array>
+    <string-array name="List_Tour_Desc1">
+        <item>It is a big theme park where you can enjoy the full beauty of life in the countryside. Among other attractions enjoy the amazing world of livestock, fascinating world of the  poultry farming, sensational world of the pig, the friendly dog world, the curious world of sericulture, the new world of biorganics, the spectacular world of horses and the interesting world of agronomy.</item>
+        <item>Located in the town of Montenegro, let us to know the traditions and coffee culture. Among its attractions are: the monument to coffee, ecological tour, Krater roller coaster, horses, garden fables, heliport, paisa people and train ride, among others.</item>
+        <item>Offers the most diverse variety of flora and fauna typical of the cloud forest, in the valley of Cocora find large concentrations of Quindío wax palm, plant his majesty was named national tree. In this region there are also the natural reserves of Acaime and Herencia Verde.</item>
+        <item>Located in the Municipality of Cordoba, it is the ideal place to meet the various uses of bamboo and bamboo site.</item>
+        <item>National Architecture Prize, designed by architect Rogelio Salmona, houses one of the most complete collections of pre-Columbian art.</item>
+    </string-array>
+    <string-array name="List_Tour_Desc2">
+        <item>Address: Kilometer 7 vía vereda Kerman, Quimbaya – Quindío – Colombia\nPhone: (6) 758 2830 -  01 8000 123 999\nCellphone: 313 721 9211</item>
+        <item>E-mail: servicioalcliente@parquedelcafe.co\nPhone: PBX (6) – 7417417\nSunday to sunday from 8am – 6pm\nWeb: http://www.parquedelcafe.co/\nAddress: Km 6 vía Montenegro Pueblo Tapao Quindío – Colombia\n</item>
+        <item>Phone: (096) 7463515 Cellphone: (321) 8317913 - (310) 2275091\nE-mail: bosquesdecocora@live.com - reservasbosquesdecocora@gmail.com\nWeb: http://www.valledelcocora.com.co\n</item>
+        <item>Open from 9:00 am a 4:00 pm\nEveryday, include special days.</item>
+        <item>Address: Avenue Bolívar # 40 Norte-80\nPhones: 7498169 ext. 6070, 6071, 6076, 6078\n"\nHorary museum: Tuesday to Sunday from 9:00 a.m - 5:00 p.m.\nDocumentation center and lecture children's room: Tuesday to saturday from 9:00 a.m. - 5:00 p.m. Free in.\nE-mail: museoquimbaya@banrep.gov.co\n</item>
+    </string-array>
+    <string name="title_activity_splash">SplashActivity</string>
 
 </resources>

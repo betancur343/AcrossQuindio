@@ -18,13 +18,15 @@
                 android:layout_height="wrap_content"
                 android:text="@string/lvAccom"
                 android:textStyle="bold"
-                android:textSize="15sp"/>
+                android:textSize="12sp"
+                android:textColor="@color/black"/>
             <TextView android:id="@+id/id_lvDescAct"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textStyle="italic"
                 android:text="@string/lvDescAccomo"
-                android:textSize="12sp"/>
+                android:textSize="10sp"
+                android:textColor="@color/gray"/>
         </LinearLayout>
 
         <LinearLayout

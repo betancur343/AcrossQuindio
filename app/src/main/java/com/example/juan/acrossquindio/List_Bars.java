@@ -1,8 +1,6 @@
 package com.example.juan.acrossquindio;
 
-/**
- * Created by Juan on 04/10/2015.
- */
+
 public class List_Bars {
     private String nameItem;
     private int idImage;
@@ -14,6 +12,13 @@ public class List_Bars {
         this.idImage = idImage;
         this.DescItem = DescItem;
 
+    }
+
+    public void setNameItem(String nameItem) {
+        this.nameItem = nameItem;
+    }
+    public void setDescItem(String descItem) {
+        DescItem = descItem;
     }
 
     public String getNameItem() {

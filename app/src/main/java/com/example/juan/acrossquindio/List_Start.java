@@ -11,6 +11,12 @@ public class List_Start {
         this.DescItem = DescItem;
     }
 
+    public void setNameItem(String nameItem) {
+        this.nameItem = nameItem;
+    }
+    public void setDescItem(String descItem) {
+        DescItem = descItem;
+    }
 
     public int getIdImage() {
             return idImage;
